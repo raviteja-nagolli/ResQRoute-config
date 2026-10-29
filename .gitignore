@@ -1,0 +1,23 @@
+
+# IDE files
+.idea/
+.vscode/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Environment and secret files
+.env
+.env.*
+!.env.example
+
+# Local-only configuration containing secrets
+application-local.properties
+application-secret.properties
